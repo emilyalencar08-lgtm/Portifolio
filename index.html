@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#102743">
+  <meta name="description" content="Portfólio pessoal de Emily Baccalá Alencar, área de Desenvolvimento de Sistemas.">
+  <title>Portfólio | Emily Baccalá Alencar</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <nav class="site-nav" aria-label="Navegação principal">
+    <a href="#inicio" class="nav-brand" aria-label="Ir para o início">E<span>.</span></a>
+    <div class="nav-links"><a href="#inicio">Início</a><a href="#sobre">Sobre mim</a><a href="#atividades">Atividades</a></div>
+  </nav>
+
+  <main>
+    <!-- 01: CAPA -->
+    <section id="inicio" class="page cover" aria-labelledby="cover-title">
+      <div class="cover-top-rule" aria-hidden="true"></div>
+      <span class="cover-index">01</span>
+      <span class="cover-index-rule" aria-hidden="true"></span>
+      <div class="cover-copy">
+        <p class="eyebrow">Meu espaço criativo</p>
+        <h1 id="cover-title">PORTFÓLIO</h1>
+        <p class="cover-name">Emily Baccalá Alencar <span>· DS</span></p>
+        <div class="cover-contact">
+          <div><small>LOCALIZAÇÃO</small><p>Osasco - SP</p></div>
+          <div><small>CONTATO</small><p>11 956878885</p></div>
+        </div>
+      </div>
+      <div class="cover-dark" aria-hidden="true"></div>
+      <div class="cover-silver" aria-hidden="true"></div>
+      <div class="cover-orb" aria-hidden="true"></div>
+      <a class="cover-next" href="#sobre">Explorar portfólio <span aria-hidden="true">↗</span></a>
+    </section>
+
+    <!-- 02: SOBRE MIM -->
+    <section id="sobre" class="page about" aria-labelledby="about-title">
+      <div class="about-rail" aria-hidden="true"><span class="rail-circle"></span><span class="rail-line"></span><span class="rail-square"></span></div>
+      <div class="about-left">
+        <div class="about-heading"><span class="big-number">02</span><div><h2 id="about-title">SOBRE MIM</h2><p>Perfil, interesses e atividades</p><span class="tiny-orange-bar"></span></div></div>
+        <div class="about-text"><p>Olá! Meu nome é Emily. Este é o meu portfólio, um espaço para apresentar meu percurso, meus interesses, os trabalhos que desenvolvi e as atividades que fazem parte da minha formação em Desenvolvimento de Sistemas.</p><p>Aqui você poderá explorar meus projetos e acompanhar um pouco da minha evolução.</p></div>
+        <div class="about-decoration" aria-hidden="true"><span></span></div>
+      </div>
+      <div class="about-right"><h3>ATIVIDADES</h3><p>Explore os arquivos, projetos e documentos organizados na próxima seção.</p><a href="#atividades" class="outline-link">Ver atividades <span aria-hidden="true">↗</span></a><div class="horizontal-rule"></div></div>
+    </section>
+
+    <!-- 03: ATIVIDADES -->
+    <section id="atividades" class="page activities" aria-labelledby="activities-title">
+      <aside class="activities-rail" aria-hidden="true"><span class="rail-orange"></span><span class="rail-dots">·<br>·<br>·<br>·<br>·<br>·</span><span class="rail-disc"></span><span class="rail-disc-outline"></span></aside>
+      <div class="activities-content">
+        <header class="activities-header"><h2 id="activities-title">ATIVIDADES</h2><span class="heading-rule"></span><p>Conheça meus projetos e atividades.<br>Clique nas imagens para abrir cada projeto.</p></header>
+        <div class="activities-grid" id="activities-grid">
+          <!-- Os seis cartões são configurados no início de script.js. -->
+        </div>
+        <div class="activities-footer"><span></span><p>Portfólio · Desenvolvimento de Sistemas</p></div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">Feito com criatividade <span aria-hidden="true">✳</span> © <span id="year"></span> Emily Baccalá Alencar</footer>
+</body>
+</html>

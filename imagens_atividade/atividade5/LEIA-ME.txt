@@ -1,0 +1,1 @@
+Coloque aqui sua imagem com nome imagem.jpg (ou altere o caminho no script.js).
